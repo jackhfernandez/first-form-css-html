@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login form</title>
+	<link rel="icon" href="/Multimedia/icono.jpeg">
+	<link rel="stylesheet" href="login.css">
+</head>
+<body>
+	<div class="container">
+		<h3>Create Account</h3>
+		<div class="buttons">
+			<button class="google-btn">
+				<picture>
+					<img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png">
+				</picture>
+				<span>Registrarse con google</span>
+			</button>
+			<button class="twitter-btn">
+				<picture>
+					<img src="https://cdn-icons-png.flaticon.com/512/124/124021.png">
+				</picture>
+				<span>Registrarse con twitter</span>
+			</button>
+		</div>
+	    <div class="separator">
+		    <hr>
+		    <span>O</span>
+		    <hr>
+	    </div>
+	    <form action="" method="">
+		    <div class="section-inputs">
+			    <label for="name">
+				    <span>Name</span>
+				    <input id="name" name="name"/>
+			    </label>			
+			    <label for="username">
+				    <span>Username</span>
+				    <input id="username" name="username"/>
+			    </label>
+			</div>
+			<label for="email">
+				<span>Email</span>
+				<input id="email" name="email"/>
+			</label>
+
+			<label for="gender">
+				<span>Select Gender</span>
+				<!-- <input id="gender" name="gender"/> -->
+				<select>
+					<option>Male</option>
+					<option>Female</option>
+					<option>Other</option>
+				</select>
+			</label>
+
+			<label for="password">
+				<span>Password</span>
+				<input id="password" name="password" placeholder="8+ characters"/>
+			</label>
+			<label for="checkbox" class="checkbox-label">
+				<input id="checkbox" type="checkbox"/>
+				<span>Al crear una cuenta acepto los términos y condiciones</span>
+			</label>
+			<button type="submit" class="submit-btn">Create an account</button>
+	    </form>
+    </div>
+</body>
+</html>
